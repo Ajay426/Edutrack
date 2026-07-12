@@ -9,7 +9,7 @@ import {
 } from "recharts";
 
 const data = [
-  { day: "Mon", attendance: 82 },
+  { day: "Mon", attendance: 83 },
   { day: "Tue", attendance: 86 },
   { day: "Wed", attendance: 80 },
   { day: "Thu", attendance: 91 },
