@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.login-page{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #5b6cff,
+        #8a4dff,
+        #b85cff
+    );
+
+}
+
+.login-container{
+
+    width:100%;
+    max-width:600px;
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:80px;
+    height:80px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:35px;
+
+    border-radius:20px;
+
+   background: rgba(255,255,255,.15);
+
+backdrop-filter: blur(18px);
+
+border:1px solid rgba(255,255,255,.25);
+
+    margin-bottom:25px;
+}
+
+.login-header h1{
+
+    color:white;
+
+    font-size:40px;
+
+    margin-bottom:10px;
+}
+
+.login-header p{
+
+    color:white;
+
+    margin-bottom:40px;
+}
+
+.login-card{
+
+    background: rgba(255,255,255,.15);
+
+backdrop-filter: blur(18px);
+
+border:1px solid rgba(255,255,255,.25);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.15);
+
+}
+
+.login-card h2{
+
+    margin-bottom:10px;
+}
+
+.login-card p{
+
+    margin-bottom:25px;
+
+    color:#666;
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
+
+    text-align:left;
+}
+
+.form-group label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+}
+
+.form-group input{
+
+    padding:14px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+.form-group input:focus{
+
+    border:1px solid #6a5cff;
+}
+
+.login-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+    background:#5d5fef;
+
+    color:white;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.login-btn:hover{
+
+    background:#4849d8;
+}
+
+/* FLOATING BUBBLES */
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    50% {
+        transform: translateY(-20px) translateX(10px);
+    }
+}
+
+@keyframes float-slow {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    50% {
+        transform: translateY(-30px) translateX(-15px);
+    }
+}
+
+.bubble-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.8), rgba(255,255,255,.1));
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+}
+
+.bubble-1 {
+    width: 80px;
+    height: 80px;
+    top: 10%;
+    left: 10%;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.6;
+}
+
+.bubble-2 {
+    width: 60px;
+    height: 60px;
+    top: 20%;
+    right: 15%;
+    animation: float-slow 8s ease-in-out infinite;
+    opacity: 0.5;
+}
+
+.bubble-3 {
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    left: 20%;
+    animation: float 7s ease-in-out infinite;
+    opacity: 0.4;
+}
+
+.bubble-4 {
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    right: 5%;
+    animation: float-slow 9s ease-in-out infinite;
+    opacity: 0.5;
+}
+
+.bubble-5 {
+    width: 90px;
+    height: 90px;
+    bottom: 20%;
+    right: 10%;
+    animation: float 6.5s ease-in-out infinite;
+    opacity: 0.55;
+}

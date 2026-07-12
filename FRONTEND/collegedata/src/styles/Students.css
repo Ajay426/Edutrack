@@ -1,0 +1,135 @@
+.student-container{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.student-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.student-header h2{
+
+    color:#333;
+
+}
+
+.add-btn{
+
+    border:none;
+
+    background:#16a34a;
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+.add-btn:hover{
+
+    background:#15803d;
+
+}
+
+.student-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.student-table thead{
+
+    background:#f3f4f6;
+
+}
+
+.student-table th{
+
+    padding:16px;
+
+    text-align:left;
+
+}
+
+.student-table td{
+
+    padding:16px;
+
+    border-top:1px solid #eee;
+
+}
+
+.student-table tbody tr:hover{
+
+    background:#f9fafb;
+
+}
+
+.edit-btn{
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:6px;
+
+    margin-right:8px;
+
+    cursor:pointer;
+
+}
+
+.delete-btn{
+
+    border:none;
+
+    background:#ef4444;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.edit-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.delete-btn:hover{
+
+    background:#dc2626;
+
+}
