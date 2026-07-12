@@ -15,8 +15,8 @@
 
     background:linear-gradient(
         135deg,
-        #5b6cff,
-        #8a4dff,
+        #4254f1,
+        #7c39f8,
         #b85cff
     );
 
@@ -44,7 +44,7 @@
 
     font-size:35px;
 
-    border-radius:20px;
+    border-radius:19px;
 
    background: rgba(255,255,255,.15);
 
@@ -59,7 +59,7 @@ border:1px solid rgba(255,255,255,.25);
 
     color:white;
 
-    font-size:40px;
+    font-size:39px;
 
     margin-bottom:10px;
 }
@@ -152,7 +152,7 @@ border:1px solid rgba(255,255,255,.25);
 
     color:white;
 
-    font-size:18px;
+    font-size:19px;
 
     transition:.3s;
 }
